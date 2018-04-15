@@ -1,6 +1,8 @@
 package cz.zr.chain.basic;
 import java.security.MessageDigest;
 
+import com.google.gson.GsonBuilder;
+
 public class StringUtil {
 
 	//Applies Sha256 to a string and returns the result.
